@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28147B321AFBA09F00FF6A89 /* InforTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28147B311AFBA09F00FF6A89 /* InforTableViewController.m */; };
+		282145FB1AF9E88E00155C34 /* CoformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282145FA1AF9E88E00155C34 /* CoformViewController.m */; };
+		2821467A1AFA56C900155C34 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 282146791AFA56C900155C34 /* CollectionViewCell.m */; };
+		282C3BF51AEF573C00ACD4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C3BF41AEF573C00ACD4E3 /* main.m */; };
+		282C3BF81AEF573C00ACD4E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C3BF71AEF573C00ACD4E3 /* AppDelegate.m */; };
+		282C3BFE1AEF573C00ACD4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282C3BFC1AEF573C00ACD4E3 /* Main.storyboard */; };
+		282C3C001AEF573C00ACD4E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282C3BFF1AEF573C00ACD4E3 /* Images.xcassets */; };
+		282C3C031AEF573C00ACD4E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282C3C011AEF573C00ACD4E3 /* LaunchScreen.xib */; };
+		282C3C0F1AEF573C00ACD4E3 /* BantoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C3C0E1AEF573C00ACD4E3 /* BantoTests.m */; };
+		28A167E51AFB4F2B004D197B /* bentoInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A167E41AFB4F2B004D197B /* bentoInformation.m */; };
+		28CDCF5D1AF5C1A90038A80A /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CDCF5C1AF5C1A90038A80A /* loginViewController.m */; };
+		72A5AD367CEFBBA6DE6C0A9D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CC560BF4A8477F57DEA832 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282C3C091AEF573C00ACD4E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282C3BE71AEF573C00ACD4E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282C3BEE1AEF573C00ACD4E3;
+			remoteInfo = Banto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28147B301AFBA09F00FF6A89 /* InforTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InforTableViewController.h; sourceTree = "<group>"; };
+		28147B311AFBA09F00FF6A89 /* InforTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InforTableViewController.m; sourceTree = "<group>"; };
+		282145F91AF9E88E00155C34 /* CoformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoformViewController.h; sourceTree = "<group>"; };
+		282145FA1AF9E88E00155C34 /* CoformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoformViewController.m; sourceTree = "<group>"; };
+		282146781AFA56C900155C34 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		282146791AFA56C900155C34 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		282C3BEF1AEF573C00ACD4E3 /* Banto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Banto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282C3BF31AEF573C00ACD4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282C3BF41AEF573C00ACD4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282C3BF61AEF573C00ACD4E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282C3BF71AEF573C00ACD4E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282C3BFD1AEF573C00ACD4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282C3BFF1AEF573C00ACD4E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		282C3C021AEF573C00ACD4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		282C3C081AEF573C00ACD4E3 /* BantoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BantoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282C3C0D1AEF573C00ACD4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282C3C0E1AEF573C00ACD4E3 /* BantoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BantoTests.m; sourceTree = "<group>"; };
+		28A167E31AFB4F2B004D197B /* bentoInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bentoInformation.h; sourceTree = "<group>"; };
+		28A167E41AFB4F2B004D197B /* bentoInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bentoInformation.m; sourceTree = "<group>"; };
+		28CDCF5B1AF5C1A90038A80A /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		28CDCF5C1AF5C1A90038A80A /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		544AA86DD5BAA7EA0EA9CFD1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		88CC560BF4A8477F57DEA832 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA73A0E4822A4B3FD73F411 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282C3BEC1AEF573C00ACD4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A5AD367CEFBBA6DE6C0A9D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282C3C051AEF573C00ACD4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245D1ACDCBD5B6442F5B3DC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CC560BF4A8477F57DEA832 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28147B2F1AFB6DE900FF6A89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				282146791AFA56C900155C34 /* CollectionViewCell.m */,
+				282146781AFA56C900155C34 /* CollectionViewCell.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		282C3BE61AEF573C00ACD4E3 = {
+			isa = PBXGroup;
+			children = (
+				282C3BF11AEF573C00ACD4E3 /* Banto */,
+				282C3C0B1AEF573C00ACD4E3 /* BantoTests */,
+				282C3BF01AEF573C00ACD4E3 /* Products */,
+				75D361942E72FDBACCDBD026 /* Pods */,
+				245D1ACDCBD5B6442F5B3DC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		282C3BF01AEF573C00ACD4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282C3BEF1AEF573C00ACD4E3 /* Banto.app */,
+				282C3C081AEF573C00ACD4E3 /* BantoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282C3BF11AEF573C00ACD4E3 /* Banto */ = {
+			isa = PBXGroup;
+			children = (
+				282C3BF61AEF573C00ACD4E3 /* AppDelegate.h */,
+				282C3BF71AEF573C00ACD4E3 /* AppDelegate.m */,
+				28147B2F1AFB6DE900FF6A89 /* View */,
+				28A167E61AFB4F31004D197B /* Objedt */,
+				28A167E71AFB4FF5004D197B /* ViewController */,
+				282C3BFF1AEF573C00ACD4E3 /* Images.xcassets */,
+				282C3BFC1AEF573C00ACD4E3 /* Main.storyboard */,
+				282C3C011AEF573C00ACD4E3 /* LaunchScreen.xib */,
+				282C3BF21AEF573C00ACD4E3 /* Supporting Files */,
+			);
+			path = Banto;
+			sourceTree = "<group>";
+		};
+		282C3BF21AEF573C00ACD4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282C3BF31AEF573C00ACD4E3 /* Info.plist */,
+				282C3BF41AEF573C00ACD4E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282C3C0B1AEF573C00ACD4E3 /* BantoTests */ = {
+			isa = PBXGroup;
+			children = (
+				282C3C0E1AEF573C00ACD4E3 /* BantoTests.m */,
+				282C3C0C1AEF573C00ACD4E3 /* Supporting Files */,
+			);
+			path = BantoTests;
+			sourceTree = "<group>";
+		};
+		282C3C0C1AEF573C00ACD4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282C3C0D1AEF573C00ACD4E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28A167E61AFB4F31004D197B /* Objedt */ = {
+			isa = PBXGroup;
+			children = (
+				28A167E31AFB4F2B004D197B /* bentoInformation.h */,
+				28A167E41AFB4F2B004D197B /* bentoInformation.m */,
+			);
+			name = Objedt;
+			sourceTree = "<group>";
+		};
+		28A167E71AFB4FF5004D197B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28CDCF5B1AF5C1A90038A80A /* loginViewController.h */,
+				28CDCF5C1AF5C1A90038A80A /* loginViewController.m */,
+				28147B301AFBA09F00FF6A89 /* InforTableViewController.h */,
+				28147B311AFBA09F00FF6A89 /* InforTableViewController.m */,
+				282145F91AF9E88E00155C34 /* CoformViewController.h */,
+				282145FA1AF9E88E00155C34 /* CoformViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		75D361942E72FDBACCDBD026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				544AA86DD5BAA7EA0EA9CFD1 /* Pods.debug.xcconfig */,
+				9BA73A0E4822A4B3FD73F411 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282C3BEE1AEF573C00ACD4E3 /* Banto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282C3C121AEF573C00ACD4E3 /* Build configuration list for PBXNativeTarget "Banto" */;
+			buildPhases = (
+				7FF333CC69B273753AD7C885 /* Check Pods Manifest.lock */,
+				282C3BEB1AEF573C00ACD4E3 /* Sources */,
+				282C3BEC1AEF573C00ACD4E3 /* Frameworks */,
+				282C3BED1AEF573C00ACD4E3 /* Resources */,
+				FF217B0CD1E112496A889082 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Banto;
+			productName = Banto;
+			productReference = 282C3BEF1AEF573C00ACD4E3 /* Banto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282C3C071AEF573C00ACD4E3 /* BantoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282C3C151AEF573C00ACD4E3 /* Build configuration list for PBXNativeTarget "BantoTests" */;
+			buildPhases = (
+				282C3C041AEF573C00ACD4E3 /* Sources */,
+				282C3C051AEF573C00ACD4E3 /* Frameworks */,
+				282C3C061AEF573C00ACD4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282C3C0A1AEF573C00ACD4E3 /* PBXTargetDependency */,
+			);
+			name = BantoTests;
+			productName = BantoTests;
+			productReference = 282C3C081AEF573C00ACD4E3 /* BantoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282C3BE71AEF573C00ACD4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = NEIL;
+				TargetAttributes = {
+					282C3BEE1AEF573C00ACD4E3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					282C3C071AEF573C00ACD4E3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 282C3BEE1AEF573C00ACD4E3;
+					};
+				};
+			};
+			buildConfigurationList = 282C3BEA1AEF573C00ACD4E3 /* Build configuration list for PBXProject "Banto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282C3BE61AEF573C00ACD4E3;
+			productRefGroup = 282C3BF01AEF573C00ACD4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282C3BEE1AEF573C00ACD4E3 /* Banto */,
+				282C3C071AEF573C00ACD4E3 /* BantoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282C3BED1AEF573C00ACD4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282C3BFE1AEF573C00ACD4E3 /* Main.storyboard in Resources */,
+				282C3C031AEF573C00ACD4E3 /* LaunchScreen.xib in Resources */,
+				282C3C001AEF573C00ACD4E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282C3C061AEF573C00ACD4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FF333CC69B273753AD7C885 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF217B0CD1E112496A889082 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282C3BEB1AEF573C00ACD4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2821467A1AFA56C900155C34 /* CollectionViewCell.m in Sources */,
+				282C3BF81AEF573C00ACD4E3 /* AppDelegate.m in Sources */,
+				28147B321AFBA09F00FF6A89 /* InforTableViewController.m in Sources */,
+				28CDCF5D1AF5C1A90038A80A /* loginViewController.m in Sources */,
+				282145FB1AF9E88E00155C34 /* CoformViewController.m in Sources */,
+				28A167E51AFB4F2B004D197B /* bentoInformation.m in Sources */,
+				282C3BF51AEF573C00ACD4E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282C3C041AEF573C00ACD4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282C3C0F1AEF573C00ACD4E3 /* BantoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282C3C0A1AEF573C00ACD4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282C3BEE1AEF573C00ACD4E3 /* Banto */;
+			targetProxy = 282C3C091AEF573C00ACD4E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282C3BFC1AEF573C00ACD4E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282C3BFD1AEF573C00ACD4E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282C3C011AEF573C00ACD4E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282C3C021AEF573C00ACD4E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282C3C101AEF573C00ACD4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		282C3C111AEF573C00ACD4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282C3C131AEF573C00ACD4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544AA86DD5BAA7EA0EA9CFD1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Banto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		282C3C141AEF573C00ACD4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA73A0E4822A4B3FD73F411 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Banto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		282C3C161AEF573C00ACD4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BantoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banto.app/Banto";
+			};
+			name = Debug;
+		};
+		282C3C171AEF573C00ACD4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BantoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Banto.app/Banto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282C3BEA1AEF573C00ACD4E3 /* Build configuration list for PBXProject "Banto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282C3C101AEF573C00ACD4E3 /* Debug */,
+				282C3C111AEF573C00ACD4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282C3C121AEF573C00ACD4E3 /* Build configuration list for PBXNativeTarget "Banto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282C3C131AEF573C00ACD4E3 /* Debug */,
+				282C3C141AEF573C00ACD4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282C3C151AEF573C00ACD4E3 /* Build configuration list for PBXNativeTarget "BantoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282C3C161AEF573C00ACD4E3 /* Debug */,
+				282C3C171AEF573C00ACD4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282C3BE71AEF573C00ACD4E3 /* Project object */;
+}
